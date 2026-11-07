@@ -96,10 +96,12 @@ pip install diffusers accelerate
 python eval/compare_diffusion.py         # BigGAN vs sd-turbo CLIP comparison
 ```
 
-## Deploy (Hugging Face Spaces)
-1. Create a new **Gradio** Space and push this repo to it (or link it to GitHub).
-2. In **Settings → Variables and secrets** add `GROQ_API_KEY` (free at console.groq.com), or `HF_TOKEN`. Never commit keys.
-3. The Space installs `requirements.txt`, downloads the weights on first start, and serves `app.py`.
+## Deploy (Streamlit Community Cloud, live app)
+1. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub, then click **Create app → Deploy a public app from GitHub**.
+2. Repository `shreyanshu1966/p39-biggan-studio`, branch `main`, main file **`streamlit_app.py`**. Under **Advanced settings** pick Python 3.12 and add the secret `GROQ_API_KEY = "..."`. Never commit keys.
+3. The first boot installs `requirements.txt` and downloads BigGAN, CLIP and MiniLM (a few minutes).
+
+`app.py` is the same app in Gradio, for local use or a Hugging Face Space (Gradio Spaces need HF PRO).
 
 ## Ethics
 See the *About · Ethics · Results* tab ([docs/about.md](docs/about.md)) and [MODEL_CARD.md](MODEL_CARD.md). For education and research only. ImageNet is licensed for non-commercial use.
