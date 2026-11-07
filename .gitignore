@@ -6,3 +6,7 @@ outputs/
 *.part
 .env
 .gradio/
+video/brag-output/work/frames/
+video/brag-output/work/stills/
+video/brag-output/work/*.wav
+video/brag-output/work/f00000_orig.jpg

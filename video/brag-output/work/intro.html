@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  :root { --bg:#0e1117; --panel:#1a1d26; --accent:#ff4b4b; --fg:#fafafa; --muted:#a3a8b8; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html, body { width:1920px; height:1080px; background:var(--bg); overflow:hidden;
+    font-family:"Segoe UI", "Source Sans Pro", Arial, sans-serif; color:var(--fg); }
+  .scene { position:absolute; inset:0; opacity:0; }
+  .center { position:absolute; left:50%; transform:translateX(-50%); text-align:center; }
+  h1 { font-size:92px; font-weight:800; letter-spacing:-1px; }
+  h2 { font-size:64px; font-weight:700; }
+  .muted { color:var(--muted); }
+  .accent { color:var(--accent); }
+  /* scene 1 */
+  #prompt { position:absolute; left:50%; width:1240px; height:120px; margin-left:-620px; border-radius:18px;
+    background:var(--panel); border:3px solid #343846; display:flex; align-items:center; padding:0 44px;
+    font-size:54px; font-family:"Cascadia Code", Consolas, monospace; }
+  #cursor { display:inline-block; width:4px; height:62px; background:var(--accent); margin-left:6px; }
+  /* scene 2 */
+  #chip { position:absolute; left:50%; top:420px; transform:translateX(-50%); padding:18px 42px; border-radius:60px;
+    background:var(--accent); font-size:48px; font-weight:700; white-space:nowrap; }
+  .lion { position:absolute; top:560px; width:330px; height:330px; border-radius:18px; overflow:hidden; box-shadow:0 20px 50px #0008; }
+  .lion img { width:100%; height:100%; display:block; }
+  .badge { position:absolute; left:12px; bottom:12px; background:#000a; padding:6px 14px; border-radius:10px; font-size:26px; font-weight:600; }
+  /* scene 3 */
+  .vol { position:absolute; top:400px; width:300px; height:300px; border-radius:16px; overflow:hidden; }
+  .vol img { width:100%; height:100%; display:block; }
+  .vlab { position:absolute; top:715px; width:300px; text-align:center; font-size:32px; color:var(--muted); }
+  #track { position:absolute; left:210px; top:820px; width:1500px; height:10px; border-radius:5px; background:#343846; }
+  #fill { position:absolute; left:0; top:0; height:10px; border-radius:5px; background:var(--accent); }
+  #knob { position:absolute; top:-17px; width:44px; height:44px; margin-left:-22px; border-radius:50%; background:var(--fg); box-shadow:0 0 0 8px #ff4b4b55; }
+  /* scene 4 */
+  .row { position:absolute; left:300px; width:1320px; }
+  .rlab { font-size:40px; margin-bottom:14px; }
+  .bar { height:86px; border-radius:14px; background:#343846; position:relative; overflow:hidden; }
+  .bfill { position:absolute; left:0; top:0; bottom:0; border-radius:14px; }
+  .bval { position:absolute; right:26px; top:12px; font-size:54px; font-weight:800; }
+  /* scene 5 */
+  .tile { position:absolute; width:240px; height:240px; border-radius:14px; overflow:hidden; }
+  .tile img { width:100%; height:100%; display:block; }
+  #veil { position:absolute; inset:0; background:radial-gradient(ellipse at center, #0e1117f2 0%, #0e1117d9 45%, #0e111780 100%); }
+</style>
+</head>
+<body>
+<!-- 1 hook -->
+<div class="scene" id="s1">
+  <h1 class="center" id="s1t" style="top:300px">Type anything.</h1>
+  <div id="prompt" style="top:520px"><span id="typed"></span><span id="cursor"></span></div>
+</div>
+<!-- 2 reveal -->
+<div class="scene" id="s2">
+  <div class="center muted" style="top:130px; font-size:46px">“the king of the jungle roaring”</div>
+  <div class="center accent" id="arrow" style="top:250px; font-size:90px">↓</div>
+  <div id="chip">lion · ImageNet #291</div>
+  <div class="lion" id="l0" style="left:225px"><img src="assets/lion0.png"><div class="badge">CLIP 27.8</div></div>
+  <div class="lion" id="l1" style="left:595px"><img src="assets/lion1.png"><div class="badge">CLIP 27.8</div></div>
+  <div class="lion" id="l2" style="left:965px"><img src="assets/lion2.png"><div class="badge">CLIP 27.4</div></div>
+  <div class="lion" id="l3" style="left:1335px"><img src="assets/lion3.png"><div class="badge">CLIP 27.3</div></div>
+</div>
+<!-- 3 truncation -->
+<div class="scene" id="s3">
+  <h2 class="center" style="top:150px">One knob: <span class="accent">truncation ψ</span></h2>
+  <div class="center muted" style="top:250px; font-size:40px">same seed · faithful ↔ diverse</div>
+  <div class="vol" id="v0" style="left:170px"><img src="assets/volcano_t0.png"></div>
+  <div class="vol" id="v1" style="left:500px"><img src="assets/volcano_t1.png"></div>
+  <div class="vol" id="v2" style="left:830px"><img src="assets/volcano_t2.png"></div>
+  <div class="vol" id="v3" style="left:1160px"><img src="assets/volcano_t3.png"></div>
+  <div class="vol" id="v4" style="left:1490px"><img src="assets/volcano_t4.png"></div>
+  <div class="vlab" style="left:170px">ψ 0.1</div><div class="vlab" style="left:500px">ψ 0.3</div>
+  <div class="vlab" style="left:830px">ψ 0.5</div><div class="vlab" style="left:1160px">ψ 0.7</div>
+  <div class="vlab" style="left:1490px">ψ 1.0</div>
+  <div id="track"><div id="fill"></div><div id="knob"></div></div>
+</div>
+<!-- 4 accuracy -->
+<div class="scene" id="s4">
+  <h2 class="center" style="top:150px">The LLM picks the <span class="accent">right class</span></h2>
+  <div class="center muted" style="top:250px; font-size:40px">30 test prompts · text → ImageNet class</div>
+  <div class="row" style="top:400px"><div class="rlab muted">Embedding search only</div>
+    <div class="bar"><div class="bfill" id="b1" style="background:#5a6072"></div><div class="bval" id="b1v">0%</div></div></div>
+  <div class="row" style="top:600px"><div class="rlab">LLM few-shot + query expansion</div>
+    <div class="bar"><div class="bfill" id="b2" style="background:var(--accent)"></div><div class="bval" id="b2v">0%</div></div></div>
+  <div class="center" id="s4n" style="top:850px; font-size:42px">0 invalid classes, vs 27% for zero-shot prompting</div>
+</div>
+<!-- 5 outro -->
+<div class="scene" id="s5">
+  <div id="mosaic"></div>
+  <div id="veil"></div>
+  <h1 class="center" id="s5t" style="top:330px; font-size:120px">BigGAN <span class="accent">Studio</span></h1>
+  <div class="center" id="s5s" style="top:520px; font-size:48px">free text → ImageNet class → BigGAN → CLIP</div>
+  <div class="center muted" id="s5c" style="top:640px; font-size:36px">P39 · Generative AI · Shreyanshu Ramesh Maske · Roll No. 39</div>
+</div>
+
+<script>
+const FPS = 30, DUR = 20;
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const ease = x => { x = clamp(x); return 1 - Math.pow(1 - x, 3); };
+const back = x => { x = clamp(x); const c = 1.70158; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+const $ = id => document.getElementById(id);
+// scene windows [start, end]; dip through background: 0.25 s out, content in after
+const S = { s1: [0, 4], s2: [4, 8], s3: [8, 12], s4: [12, 16], s5: [16, 20] };
+const PROMPT = "the king of the jungle roaring";
+
+const tiles = ["golden","pizza","schooner","monarch","volcano","burger","goldfish","panda","castle","penguin","balloon","piano","espresso","tiger","beacon","butterfly"];
+(() => { // 8 x 4 mosaic, deterministic layout
+  const m = $("mosaic");
+  for (let r = 0; r < 4; r++) for (let c = 0; c < 8; c++) {
+    const d = document.createElement("div"); d.className = "tile"; d.id = `t${r}_${c}`;
+    d.style.left = (c * 250 - 40 + (r % 2) * 60) + "px"; d.style.top = (r * 250 + 40) + "px";
+    d.innerHTML = `<img src="assets/m_${tiles[(r * 8 + c * 3) % tiles.length]}.png">`;
+    m.appendChild(d);
+  }
+})();
+
+function sceneAlpha(name, t) {
+  const [a, b] = S[name];
+  if (t < a || t >= b) return 0;
+  const inA = name === "s1" ? 1 : ease((t - a) / 0.3);
+  const outA = name === "s5" ? 1 - ease((t - (b - 0.6)) / 0.6) * 0.0 : 1 - ease((t - (b - 0.25)) / 0.25);
+  return Math.min(inA, outA);
+}
+
+window.renderAt = function (t) {
+  for (const k in S) $(k).style.opacity = sceneAlpha(k, t);
+  // 1 hook
+  const u = t - 0;
+  $("s1t").style.transform = `translateX(-50%) translateY(${(1 - ease(u / 0.5)) * 30}px)`;
+  $("s1t").style.opacity = ease(u / 0.5);
+  const n = Math.floor(clamp((u - 0.8) / 2.2) * PROMPT.length);
+  $("typed").textContent = PROMPT.slice(0, n);
+  $("cursor").style.opacity = (Math.floor(u * 2) % 2 === 0 || (u > 0.8 && u < 3.0)) ? 1 : 0;
+  // 2 reveal (cards pop on beats 4.5, 5.0, 5.5, 6.0)
+  const v = t - 4;
+  $("arrow").style.opacity = ease((v - 0.2) / 0.3);
+  $("chip").style.transform = `translateX(-50%) scale(${0.6 + 0.4 * back((v - 0.3) / 0.4)})`;
+  $("chip").style.opacity = ease((v - 0.3) / 0.2);
+  for (let i = 0; i < 4; i++) {
+    const p = (v - 0.5 - i * 0.5) / 0.35;
+    $("l" + i).style.opacity = ease(p);
+    $("l" + i).style.transform = `translateY(${(1 - ease(p)) * 60}px) scale(${0.85 + 0.15 * back(p)})`;
+  }
+  // 3 truncation: knob sweeps 8.5 -> 11.2
+  const w = t - 8;
+  const k = clamp((w - 0.5) / 2.7);
+  const ke = 0.5 - 0.5 * Math.cos(Math.PI * k);
+  $("fill").style.width = (ke * 100) + "%";
+  $("knob").style.left = (ke * 100) + "%";
+  for (let i = 0; i < 5; i++) {
+    const on = ke >= i / 4 - 0.02;
+    const p = ease((w - 0.2 - i * 0.12) / 0.3);
+    $("v" + i).style.opacity = p * (on ? 1 : 0.35);
+    $("v" + i).style.transform = `scale(${on ? 1 : 0.94})`;
+    $("v" + i).style.outline = on && Math.abs(ke - i / 4) < 0.13 ? "5px solid #ff4b4b" : "none";
+  }
+  // 4 accuracy bars
+  const x = t - 12;
+  const b1 = 47 * ease((x - 0.4) / 0.9), b2 = 97 * ease((x - 1.1) / 1.2);
+  $("b1").style.width = b1 + "%"; $("b1v").textContent = Math.round(b1) + "%";
+  $("b2").style.width = b2 + "%"; $("b2v").textContent = x > 2.4 ? "93–97%" : Math.round(Math.min(b2, 93)) + "%";
+  $("s4n").style.opacity = ease((x - 2.4) / 0.4);
+  // 5 outro: mosaic drifts, title lands on the bar line (16.0)
+  const y = t - 16;
+  $("mosaic").style.transform = `translateX(${-y * 18}px) scale(${1.04 + y * 0.01})`;
+  for (let r = 0; r < 4; r++) for (let c = 0; c < 8; c++)
+    $(`t${r}_${c}`).style.opacity = ease((y - (r + c) * 0.05) / 0.4);
+  $("s5t").style.transform = `translateX(-50%) scale(${0.9 + 0.1 * back((y - 0.2) / 0.5)})`;
+  $("s5t").style.opacity = ease((y - 0.2) / 0.3);
+  $("s5s").style.opacity = ease((y - 0.8) / 0.4);
+  $("s5c").style.opacity = ease((y - 1.3) / 0.4);
+};
+window.ready = Promise.all([...document.images].map(i => i.decode().catch(() => {})))
+  .then(() => document.fonts.ready).then(() => true);
+renderAt(0);
+</script>
+</body>
+</html>

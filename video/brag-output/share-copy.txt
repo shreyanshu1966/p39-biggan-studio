@@ -1,0 +1,1 @@
+Type "the king of the jungle roaring" and get four BigGAN lions. An LLM maps any sentence to the nearest of 1000 ImageNet classes (47% → 93–97% accuracy vs plain embedding search), BigGAN draws it with a truncation knob, and CLIP ranks the results. P39 · Generative AI mini-project: https://github.com/shreyanshu1966/p39-biggan-studio
