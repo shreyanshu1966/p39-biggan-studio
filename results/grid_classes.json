@@ -1,0 +1,27 @@
+{
+  "a friendly family dog with golden fur": {
+    "idx": 207,
+    "label": "golden retriever",
+    "method": "llm_fewshot"
+  },
+  "a mountain erupting with lava": {
+    "idx": 980,
+    "label": "volcano",
+    "method": "llm_fewshot"
+  },
+  "a slice of italian food with cheese and tomato": {
+    "idx": 963,
+    "label": "pizza",
+    "method": "llm_fewshot"
+  },
+  "an old wooden ship with pirate flags": {
+    "idx": 780,
+    "label": "schooner",
+    "method": "llm_fewshot"
+  },
+  "an orange and black butterfly that migrates": {
+    "idx": 323,
+    "label": "monarch",
+    "method": "llm_fewshot"
+  }
+}

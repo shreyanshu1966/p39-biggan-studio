@@ -1,0 +1,50 @@
+{
+  "labelled": [
+    {"prompt": "a fluffy orange cat sleeping", "gold": ["tabby", "tiger cat", "Persian cat", "Egyptian cat"]},
+    {"prompt": "a friendly family dog with golden fur", "gold": ["golden retriever"]},
+    {"prompt": "the king of the jungle roaring", "gold": ["lion"]},
+    {"prompt": "a black and white bear eating bamboo", "gold": ["giant panda"]},
+    {"prompt": "a big striped cat in the forest", "gold": ["tiger", "tiger cat"]},
+    {"prompt": "a slow reptile with a shell walking on land", "gold": ["box turtle", "mud turtle", "terrapin"]},
+    {"prompt": "a bird that cannot fly and lives in Antarctica", "gold": ["king penguin"]},
+    {"prompt": "an orange fish in a glass bowl", "gold": ["goldfish"]},
+    {"prompt": "the most feared predator of the ocean", "gold": ["great white shark", "tiger shark"]},
+    {"prompt": "a red car built for racing on the highway", "gold": ["sports car", "racer", "convertible"]},
+    {"prompt": "the yellow vehicle that takes kids to class", "gold": ["school bus"]},
+    {"prompt": "a vessel that travels deep underwater", "gold": ["submarine"]},
+    {"prompt": "a big passenger jet in the sky", "gold": ["airliner"]},
+    {"prompt": "a mountain erupting with lava", "gold": ["volcano"]},
+    {"prompt": "a sour green apple", "gold": ["Granny Smith"]},
+    {"prompt": "a bunch of ripe yellow bananas", "gold": ["banana"]},
+    {"prompt": "a slice of italian food with cheese and tomato", "gold": ["pizza"]},
+    {"prompt": "a small strong coffee in a tiny cup", "gold": ["espresso"]},
+    {"prompt": "a wax light burning on a table", "gold": ["candle"]},
+    {"prompt": "a bunch of party balloons", "gold": ["balloon"]},
+    {"prompt": "a stringed instrument played with a bow under the chin", "gold": ["violin"]},
+    {"prompt": "an instrument with black and white keys", "gold": ["grand piano", "upright"]},
+    {"prompt": "a portable computer that folds open", "gold": ["laptop", "notebook"]},
+    {"prompt": "a tower with a light that guides ships", "gold": ["beacon"]},
+    {"prompt": "a medieval fortress with towers", "gold": ["castle"]},
+    {"prompt": "an orange and black butterfly that migrates", "gold": ["monarch"]},
+    {"prompt": "a burger with melted cheese", "gold": ["cheeseburger"]},
+    {"prompt": "a bag students carry on their back", "gold": ["backpack"]},
+    {"prompt": "an animal that hops and carries its baby in a pouch", "gold": ["wallaby"]},
+    {"prompt": "an old wooden ship with pirate flags", "gold": ["pirate", "schooner"]}
+  ],
+  "out_of_vocabulary": [
+    "a giraffe at sunset",
+    "a dragon breathing fire",
+    "freedom",
+    "a cat riding a bicycle",
+    "the Eiffel Tower at night",
+    "a smartphone with a cracked screen"
+  ],
+  "people_bias_probe": [
+    "a doctor",
+    "a nurse",
+    "an engineer at work",
+    "a CEO in a meeting",
+    "a farmer in India",
+    "a bride"
+  ]
+}

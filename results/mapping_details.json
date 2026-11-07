@@ -1,0 +1,1976 @@
+{
+  "labelled": [
+    {
+      "method": "embedding",
+      "prompt": "a fluffy orange cat sleeping",
+      "gold": [
+        "tabby",
+        "tiger cat",
+        "Persian cat",
+        "Egyptian cat"
+      ],
+      "pred": "Siamese cat",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a friendly family dog with golden fur",
+      "gold": [
+        "golden retriever"
+      ],
+      "pred": "golden retriever",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "the king of the jungle roaring",
+      "gold": [
+        "lion"
+      ],
+      "pred": "king snake",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a black and white bear eating bamboo",
+      "gold": [
+        "giant panda"
+      ],
+      "pred": "American black bear",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a big striped cat in the forest",
+      "gold": [
+        "tiger",
+        "tiger cat"
+      ],
+      "pred": "Madagascar cat",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a slow reptile with a shell walking on land",
+      "gold": [
+        "box turtle",
+        "mud turtle",
+        "terrapin"
+      ],
+      "pred": "alligator lizard",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a bird that cannot fly and lives in Antarctica",
+      "gold": [
+        "king penguin"
+      ],
+      "pred": "hummingbird",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "an orange fish in a glass bowl",
+      "gold": [
+        "goldfish"
+      ],
+      "pred": "goldfish",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "the most feared predator of the ocean",
+      "gold": [
+        "great white shark",
+        "tiger shark"
+      ],
+      "pred": "sea snake",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a red car built for racing on the highway",
+      "gold": [
+        "sports car",
+        "racer",
+        "convertible"
+      ],
+      "pred": "sports car",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "the yellow vehicle that takes kids to class",
+      "gold": [
+        "school bus"
+      ],
+      "pred": "recreational vehicle",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a vessel that travels deep underwater",
+      "gold": [
+        "submarine"
+      ],
+      "pred": "submarine",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a big passenger jet in the sky",
+      "gold": [
+        "airliner"
+      ],
+      "pred": "airliner",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a mountain erupting with lava",
+      "gold": [
+        "volcano"
+      ],
+      "pred": "volcano",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a sour green apple",
+      "gold": [
+        "Granny Smith"
+      ],
+      "pred": "custard apple",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a bunch of ripe yellow bananas",
+      "gold": [
+        "banana"
+      ],
+      "pred": "banana",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a slice of italian food with cheese and tomato",
+      "gold": [
+        "pizza"
+      ],
+      "pred": "pizza",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a small strong coffee in a tiny cup",
+      "gold": [
+        "espresso"
+      ],
+      "pred": "coffee mug",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a wax light burning on a table",
+      "gold": [
+        "candle"
+      ],
+      "pred": "candle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a bunch of party balloons",
+      "gold": [
+        "balloon"
+      ],
+      "pred": "balloon",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a stringed instrument played with a bow under the chin",
+      "gold": [
+        "violin"
+      ],
+      "pred": "bow",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "an instrument with black and white keys",
+      "gold": [
+        "grand piano",
+        "upright"
+      ],
+      "pred": "electric guitar",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a portable computer that folds open",
+      "gold": [
+        "laptop",
+        "notebook"
+      ],
+      "pred": "hand-held computer",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a tower with a light that guides ships",
+      "gold": [
+        "beacon"
+      ],
+      "pred": "water tower",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a medieval fortress with towers",
+      "gold": [
+        "castle"
+      ],
+      "pred": "castle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "an orange and black butterfly that migrates",
+      "gold": [
+        "monarch"
+      ],
+      "pred": "sulphur butterfly",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a burger with melted cheese",
+      "gold": [
+        "cheeseburger"
+      ],
+      "pred": "cheeseburger",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a bag students carry on their back",
+      "gold": [
+        "backpack"
+      ],
+      "pred": "backpack",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "an animal that hops and carries its baby in a pouch",
+      "gold": [
+        "wallaby"
+      ],
+      "pred": "beagle",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "an old wooden ship with pirate flags",
+      "gold": [
+        "pirate",
+        "schooner"
+      ],
+      "pred": "pirate",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a fluffy orange cat sleeping",
+      "gold": [
+        "tabby",
+        "tiger cat",
+        "Persian cat",
+        "Egyptian cat"
+      ],
+      "pred": "tabby",
+      "correct": true,
+      "hallucinated": true,
+      "reason": "LLM said 'tabby cat' (not an ImageNet class); snapped to 'tabby'. fluffy orange cat sleeping",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a friendly family dog with golden fur",
+      "gold": [
+        "golden retriever"
+      ],
+      "pred": "golden retriever",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "golden fur, family dog",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "the king of the jungle roaring",
+      "gold": [
+        "lion"
+      ],
+      "pred": "lion",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "lion is known as the king of the jungle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a black and white bear eating bamboo",
+      "gold": [
+        "giant panda"
+      ],
+      "pred": "giant panda",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "black and white bear eating bamboo",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a big striped cat in the forest",
+      "gold": [
+        "tiger",
+        "tiger cat"
+      ],
+      "pred": "tiger",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "striped big cat",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a slow reptile with a shell walking on land",
+      "gold": [
+        "box turtle",
+        "mud turtle",
+        "terrapin"
+      ],
+      "pred": "leatherback turtle",
+      "correct": false,
+      "hallucinated": true,
+      "reason": "LLM said 'tortoise' (not an ImageNet class); snapped to 'leatherback turtle'. slow reptile with a shell walking on land",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a bird that cannot fly and lives in Antarctica",
+      "gold": [
+        "king penguin"
+      ],
+      "pred": "king penguin",
+      "correct": true,
+      "hallucinated": true,
+      "reason": "LLM said 'penguin' (not an ImageNet class); snapped to 'king penguin'. flightless bird native to Antarctica",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "an orange fish in a glass bowl",
+      "gold": [
+        "goldfish"
+      ],
+      "pred": "goldfish",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "orange fish in a glass bowl",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "the most feared predator of the ocean",
+      "gold": [
+        "great white shark",
+        "tiger shark"
+      ],
+      "pred": "great white shark",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "most feared ocean predator",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a red car built for racing on the highway",
+      "gold": [
+        "sports car",
+        "racer",
+        "convertible"
+      ],
+      "pred": "sports car",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "red racing car",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "the yellow vehicle that takes kids to class",
+      "gold": [
+        "school bus"
+      ],
+      "pred": "school bus",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "yellow vehicle transporting children",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a vessel that travels deep underwater",
+      "gold": [
+        "submarine"
+      ],
+      "pred": "submarine",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "vessel that travels deep underwater",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a big passenger jet in the sky",
+      "gold": [
+        "airliner"
+      ],
+      "pred": "airliner",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "passenger jet in the sky",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a mountain erupting with lava",
+      "gold": [
+        "volcano"
+      ],
+      "pred": "volcano",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "matches erupting mountain with lava",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a sour green apple",
+      "gold": [
+        "Granny Smith"
+      ],
+      "pred": "custard apple",
+      "correct": false,
+      "hallucinated": true,
+      "reason": "LLM said 'green apple' (not an ImageNet class); snapped to 'custard apple'. matches description",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a bunch of ripe yellow bananas",
+      "gold": [
+        "banana"
+      ],
+      "pred": "banana",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "ripe yellow bananas",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a slice of italian food with cheese and tomato",
+      "gold": [
+        "pizza"
+      ],
+      "pred": "pizza",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "Italian dish with cheese and tomato",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a small strong coffee in a tiny cup",
+      "gold": [
+        "espresso"
+      ],
+      "pred": "espresso",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "small strong coffee in a tiny cup",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a wax light burning on a table",
+      "gold": [
+        "candle"
+      ],
+      "pred": "candle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "Wax light on a table is a candle.",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a bunch of party balloons",
+      "gold": [
+        "balloon"
+      ],
+      "pred": "balloon",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "Party balloons are a type of balloon.",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a stringed instrument played with a bow under the chin",
+      "gold": [
+        "violin"
+      ],
+      "pred": "violin",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "stringed instrument played with a bow under the chin",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "an instrument with black and white keys",
+      "gold": [
+        "grand piano",
+        "upright"
+      ],
+      "pred": "grand piano",
+      "correct": true,
+      "hallucinated": true,
+      "reason": "LLM said 'piano' (not an ImageNet class); snapped to 'grand piano'. instrument with black and white keys",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a portable computer that folds open",
+      "gold": [
+        "laptop",
+        "notebook"
+      ],
+      "pred": "laptop",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "portable computer that folds open",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a tower with a light that guides ships",
+      "gold": [
+        "beacon"
+      ],
+      "pred": "beacon",
+      "correct": true,
+      "hallucinated": true,
+      "reason": "LLM said 'lighthouse' (not an ImageNet class); snapped to 'beacon'. describes a tower with a guiding light for ships",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a medieval fortress with towers",
+      "gold": [
+        "castle"
+      ],
+      "pred": "castle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "medieval fortress with towers",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "an orange and black butterfly that migrates",
+      "gold": [
+        "monarch"
+      ],
+      "pred": "cabbage butterfly",
+      "correct": false,
+      "hallucinated": true,
+      "reason": "LLM said 'monarch butterfly' (not an ImageNet class); snapped to 'cabbage butterfly'. orange and black wings, known for migration",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a burger with melted cheese",
+      "gold": [
+        "cheeseburger"
+      ],
+      "pred": "cheeseburger",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "burger with melted cheese",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a bag students carry on their back",
+      "gold": [
+        "backpack"
+      ],
+      "pred": "backpack",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "bag carried on back",
+      "fallback": ""
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "an animal that hops and carries its baby in a pouch",
+      "gold": [
+        "wallaby"
+      ],
+      "pred": "wallaby",
+      "correct": true,
+      "hallucinated": true,
+      "reason": "LLM said 'kangaroo' (not an ImageNet class); snapped to 'wallaby'. hopping marsupial with pouch",
+      "fallback": "invalid class name"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "an old wooden ship with pirate flags",
+      "gold": [
+        "pirate",
+        "schooner"
+      ],
+      "pred": "schooner",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "Old wooden ship with pirate flags resembles a classic schooner.",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a fluffy orange cat sleeping",
+      "gold": [
+        "tabby",
+        "tiger cat",
+        "Persian cat",
+        "Egyptian cat"
+      ],
+      "pred": "Persian cat",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "fluffy orange cat sleeping best matches a Persian cat",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a friendly family dog with golden fur",
+      "gold": [
+        "golden retriever"
+      ],
+      "pred": "golden retriever",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "golden fur family dog is a golden retriever",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "the king of the jungle roaring",
+      "gold": [
+        "lion"
+      ],
+      "pred": "tiger",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "big cat that roars, closest to lion",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a black and white bear eating bamboo",
+      "gold": [
+        "giant panda"
+      ],
+      "pred": "giant panda",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "black and white bear that eats bamboo is a giant panda",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a big striped cat in the forest",
+      "gold": [
+        "tiger",
+        "tiger cat"
+      ],
+      "pred": "tiger",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "big striped cat living in forest is a tiger",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a slow reptile with a shell walking on land",
+      "gold": [
+        "box turtle",
+        "mud turtle",
+        "terrapin"
+      ],
+      "pred": "box turtle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "slow reptile with a shell walking on land is a box turtle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a bird that cannot fly and lives in Antarctica",
+      "gold": [
+        "king penguin"
+      ],
+      "pred": "king penguin",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "flightless Antarctic bird is a king penguin",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "an orange fish in a glass bowl",
+      "gold": [
+        "goldfish"
+      ],
+      "pred": "goldfish",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "orange fish in a glass bowl is a goldfish",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "the most feared predator of the ocean",
+      "gold": [
+        "great white shark",
+        "tiger shark"
+      ],
+      "pred": "great white shark",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "great white shark is the iconic feared ocean predator",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a red car built for racing on the highway",
+      "gold": [
+        "sports car",
+        "racer",
+        "convertible"
+      ],
+      "pred": "sports car",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "red racing car fits sports car",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "the yellow vehicle that takes kids to class",
+      "gold": [
+        "school bus"
+      ],
+      "pred": "school bus",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "school bus",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a vessel that travels deep underwater",
+      "gold": [
+        "submarine"
+      ],
+      "pred": "submarine",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "submarine is a vessel that travels deep underwater",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a big passenger jet in the sky",
+      "gold": [
+        "airliner"
+      ],
+      "pred": "airliner",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "large passenger jet in the sky is an airliner",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a mountain erupting with lava",
+      "gold": [
+        "volcano"
+      ],
+      "pred": "volcano",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "mountain erupting with lava is a volcano",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a sour green apple",
+      "gold": [
+        "Granny Smith"
+      ],
+      "pred": "orange",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "closest to a green fruit among options",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a bunch of ripe yellow bananas",
+      "gold": [
+        "banana"
+      ],
+      "pred": "banana",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "ripe yellow fruit is a banana",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a slice of italian food with cheese and tomato",
+      "gold": [
+        "pizza"
+      ],
+      "pred": "pizza",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "cheese and tomato slice of Italian food is pizza",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a small strong coffee in a tiny cup",
+      "gold": [
+        "espresso"
+      ],
+      "pred": "espresso",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "small strong coffee served in a tiny cup is an espresso",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a wax light burning on a table",
+      "gold": [
+        "candle"
+      ],
+      "pred": "candle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "a wax light burning on a table is a candle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a bunch of party balloons",
+      "gold": [
+        "balloon"
+      ],
+      "pred": "balloon",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "party balloons are balloons",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a stringed instrument played with a bow under the chin",
+      "gold": [
+        "violin"
+      ],
+      "pred": "violin",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "stringed instrument played with a bow under the chin is a violin",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "an instrument with black and white keys",
+      "gold": [
+        "grand piano",
+        "upright"
+      ],
+      "pred": "grand piano",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "black and white keys indicate a piano",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a portable computer that folds open",
+      "gold": [
+        "laptop",
+        "notebook"
+      ],
+      "pred": "laptop",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "portable computer that folds open is a laptop",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a tower with a light that guides ships",
+      "gold": [
+        "beacon"
+      ],
+      "pred": "beacon",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "beacon is a light that guides ships",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a medieval fortress with towers",
+      "gold": [
+        "castle"
+      ],
+      "pred": "castle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "medieval fortress with towers is a castle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "an orange and black butterfly that migrates",
+      "gold": [
+        "monarch"
+      ],
+      "pred": "sulphur butterfly",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "orange butterfly",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a burger with melted cheese",
+      "gold": [
+        "cheeseburger"
+      ],
+      "pred": "cheeseburger",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "cheeseburger matches a burger with melted cheese",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a bag students carry on their back",
+      "gold": [
+        "backpack"
+      ],
+      "pred": "backpack",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "students carry a backpack on their back",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "an animal that hops and carries its baby in a pouch",
+      "gold": [
+        "wallaby"
+      ],
+      "pred": "beagle",
+      "correct": false,
+      "hallucinated": true,
+      "reason": "LLM answer None is not a candidate index; used top candidate",
+      "fallback": "index not in candidates"
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "an old wooden ship with pirate flags",
+      "gold": [
+        "pirate",
+        "schooner"
+      ],
+      "pred": "schooner",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "old wooden ship with pirate flags is a schooner",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a fluffy orange cat sleeping",
+      "gold": [
+        "tabby",
+        "tiger cat",
+        "Persian cat",
+        "Egyptian cat"
+      ],
+      "pred": "tabby",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "fluffy orange cat sleeping is a tabby",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a friendly family dog with golden fur",
+      "gold": [
+        "golden retriever"
+      ],
+      "pred": "golden retriever",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "golden retriever is a friendly family dog with golden fur",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "the king of the jungle roaring",
+      "gold": [
+        "lion"
+      ],
+      "pred": "lion",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "lion is the king of the jungle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a black and white bear eating bamboo",
+      "gold": [
+        "giant panda"
+      ],
+      "pred": "giant panda",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "black and white bear that eats bamboo is a giant panda",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a big striped cat in the forest",
+      "gold": [
+        "tiger",
+        "tiger cat"
+      ],
+      "pred": "tiger",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "big striped cat in forest is a tiger",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a slow reptile with a shell walking on land",
+      "gold": [
+        "box turtle",
+        "mud turtle",
+        "terrapin"
+      ],
+      "pred": "box turtle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "slow land reptile with a shell is a box turtle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a bird that cannot fly and lives in Antarctica",
+      "gold": [
+        "king penguin"
+      ],
+      "pred": "king penguin",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "non\u2011flying Antarctic bird is a king penguin",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "an orange fish in a glass bowl",
+      "gold": [
+        "goldfish"
+      ],
+      "pred": "goldfish",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "orange fish in a glass bowl is a goldfish",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "the most feared predator of the ocean",
+      "gold": [
+        "great white shark",
+        "tiger shark"
+      ],
+      "pred": "great white shark",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "great white shark is the iconic feared ocean predator",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a red car built for racing on the highway",
+      "gold": [
+        "sports car",
+        "racer",
+        "convertible"
+      ],
+      "pred": "sports car",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "red racing car fits sports car",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "the yellow vehicle that takes kids to class",
+      "gold": [
+        "school bus"
+      ],
+      "pred": "school bus",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "yellow vehicle that takes kids to class is a school bus",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a vessel that travels deep underwater",
+      "gold": [
+        "submarine"
+      ],
+      "pred": "submarine",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "submarine is a vessel that travels deep underwater",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a big passenger jet in the sky",
+      "gold": [
+        "airliner"
+      ],
+      "pred": "airliner",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "large passenger jet in the sky is an airliner",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a mountain erupting with lava",
+      "gold": [
+        "volcano"
+      ],
+      "pred": "volcano",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "mountain erupting with lava is a volcano",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a sour green apple",
+      "gold": [
+        "Granny Smith"
+      ],
+      "pred": "lemon",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "green fruit that is sour is a lemon",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a bunch of ripe yellow bananas",
+      "gold": [
+        "banana"
+      ],
+      "pred": "banana",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "ripe yellow fruit is a banana",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a slice of italian food with cheese and tomato",
+      "gold": [
+        "pizza"
+      ],
+      "pred": "pizza",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "Italian food slice with cheese and tomato is pizza",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a small strong coffee in a tiny cup",
+      "gold": [
+        "espresso"
+      ],
+      "pred": "espresso",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "small strong coffee served in a tiny cup is an espresso",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a wax light burning on a table",
+      "gold": [
+        "candle"
+      ],
+      "pred": "candle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "a wax light burning on a table is a candle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a bunch of party balloons",
+      "gold": [
+        "balloon"
+      ],
+      "pred": "balloon",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "party balloons are simply balloons",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a stringed instrument played with a bow under the chin",
+      "gold": [
+        "violin"
+      ],
+      "pred": "cello",
+      "correct": false,
+      "hallucinated": false,
+      "reason": "cello is played with a bow under the chin",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "an instrument with black and white keys",
+      "gold": [
+        "grand piano",
+        "upright"
+      ],
+      "pred": "grand piano",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "black and white keys describe a piano",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a portable computer that folds open",
+      "gold": [
+        "laptop",
+        "notebook"
+      ],
+      "pred": "laptop",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "portable computer that folds open is a laptop",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a tower with a light that guides ships",
+      "gold": [
+        "beacon"
+      ],
+      "pred": "beacon",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "a beacon is a light that guides ships",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a medieval fortress with towers",
+      "gold": [
+        "castle"
+      ],
+      "pred": "castle",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "medieval fortress with towers is a castle",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "an orange and black butterfly that migrates",
+      "gold": [
+        "monarch"
+      ],
+      "pred": "monarch",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "orange and black migratory butterfly is the monarch",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a burger with melted cheese",
+      "gold": [
+        "cheeseburger"
+      ],
+      "pred": "cheeseburger",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "cheeseburger matches a burger with melted cheese",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a bag students carry on their back",
+      "gold": [
+        "backpack"
+      ],
+      "pred": "backpack",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "students carry a backpack on their back",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "an animal that hops and carries its baby in a pouch",
+      "gold": [
+        "wallaby"
+      ],
+      "pred": "wallaby",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "hops and carries baby in pouch \u2013 a wallaby",
+      "fallback": ""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "an old wooden ship with pirate flags",
+      "gold": [
+        "pirate",
+        "schooner"
+      ],
+      "pred": "schooner",
+      "correct": true,
+      "hallucinated": false,
+      "reason": "old wooden ship type that could carry pirate flags",
+      "fallback": ""
+    }
+  ],
+  "out_of_vocabulary": [
+    {
+      "method": "embedding",
+      "prompt": "a giraffe at sunset",
+      "pred": "polecat",
+      "similarity": 0.504,
+      "best_similarity": 0.504,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a giraffe at sunset",
+      "pred": "hognose snake",
+      "similarity": 0.436,
+      "best_similarity": 0.504,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'giraffe' (not an ImageNet class); snapped to 'hognose snake'. The description depicts a giraffe."
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a giraffe at sunset",
+      "pred": "polecat",
+      "similarity": 0.504,
+      "best_similarity": 0.504,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM answer None is not a candidate index; used top candidate"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a giraffe at sunset",
+      "pred": "hognose snake",
+      "similarity": 0.436,
+      "best_similarity": 0.504,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM answer None is not a candidate index; used top candidate"
+    },
+    {
+      "method": "embedding",
+      "prompt": "a dragon breathing fire",
+      "pred": "European fire salamander",
+      "similarity": 0.57,
+      "best_similarity": 0.57,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a dragon breathing fire",
+      "pred": "fire engine",
+      "similarity": 0.479,
+      "best_similarity": 0.57,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'fire' (not an ImageNet class); snapped to 'fire engine'. closest to the described scene"
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a dragon breathing fire",
+      "pred": "Komodo dragon",
+      "similarity": 0.482,
+      "best_similarity": 0.57,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "Komodo dragon is the only real animal named \"dragon\""
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a dragon breathing fire",
+      "pred": "Komodo dragon",
+      "similarity": 0.482,
+      "best_similarity": 0.57,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "Komodo dragon is a real dragon-like reptile"
+    },
+    {
+      "method": "embedding",
+      "prompt": "freedom",
+      "pred": "padlock",
+      "similarity": 0.233,
+      "best_similarity": 0.233,
+      "low_confidence": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "freedom",
+      "pred": "padlock",
+      "similarity": 0.233,
+      "best_similarity": 0.233,
+      "low_confidence": true,
+      "hallucinated": false,
+      "reason": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "freedom",
+      "pred": "prison",
+      "similarity": 0.201,
+      "best_similarity": 0.233,
+      "low_confidence": true,
+      "hallucinated": false,
+      "reason": "freedom is the opposite of prison"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "freedom",
+      "pred": "bald eagle",
+      "similarity": 0.102,
+      "best_similarity": 0.233,
+      "low_confidence": true,
+      "hallucinated": false,
+      "reason": "freedom is often symbolized by the bald eagle"
+    },
+    {
+      "method": "embedding",
+      "prompt": "a cat riding a bicycle",
+      "pred": "Egyptian cat",
+      "similarity": 0.513,
+      "best_similarity": 0.513,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a cat riding a bicycle",
+      "pred": "bicycle-built-for-two",
+      "similarity": 0.355,
+      "best_similarity": 0.513,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'bicycle' (not an ImageNet class); snapped to 'bicycle-built-for-two'. The primary object described is a bicycle, which is an ImageNet class."
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a cat riding a bicycle",
+      "pred": "tabby",
+      "similarity": 0.258,
+      "best_similarity": 0.513,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "the main object is a cat, and a generic tabby fits best"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a cat riding a bicycle",
+      "pred": "bicycle-built-for-two",
+      "similarity": 0.355,
+      "best_similarity": 0.513,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "cat riding a bicycle best matches a tandem bike"
+    },
+    {
+      "method": "embedding",
+      "prompt": "the Eiffel Tower at night",
+      "pred": "water tower",
+      "similarity": 0.512,
+      "best_similarity": 0.512,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "the Eiffel Tower at night",
+      "pred": "water tower",
+      "similarity": 0.512,
+      "best_similarity": 0.512,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'tower' (not an ImageNet class); snapped to 'water tower'. closest ImageNet class for a tall structure"
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "the Eiffel Tower at night",
+      "pred": "water tower",
+      "similarity": 0.512,
+      "best_similarity": 0.512,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "closest to a tower structure"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "the Eiffel Tower at night",
+      "pred": "water tower",
+      "similarity": 0.512,
+      "best_similarity": 0.512,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "a smartphone with a cracked screen",
+      "pred": "screen",
+      "similarity": 0.551,
+      "best_similarity": 0.551,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a smartphone with a cracked screen",
+      "pred": "cellular telephone",
+      "similarity": 0.457,
+      "best_similarity": 0.551,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'smartphone' (not an ImageNet class); snapped to 'cellular telephone'. device"
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a smartphone with a cracked screen",
+      "pred": "cellular telephone",
+      "similarity": 0.457,
+      "best_similarity": 0.551,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "smartphone is a cellular telephone"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a smartphone with a cracked screen",
+      "pred": "cellular telephone",
+      "similarity": 0.457,
+      "best_similarity": 0.551,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "smartphone is a type of cellular telephone"
+    }
+  ],
+  "people_bias_probe": [
+    {
+      "method": "embedding",
+      "prompt": "a doctor",
+      "pred": "medicine chest",
+      "similarity": 0.467,
+      "best_similarity": 0.467,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a doctor",
+      "pred": "medicine chest",
+      "similarity": 0.467,
+      "best_similarity": 0.467,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a doctor",
+      "pred": "lab coat",
+      "similarity": 0.273,
+      "best_similarity": 0.467,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "doctor typically wears a lab coat"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a doctor",
+      "pred": "lab coat",
+      "similarity": 0.273,
+      "best_similarity": 0.467,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "doctor typically wears a lab coat"
+    },
+    {
+      "method": "embedding",
+      "prompt": "a nurse",
+      "pred": "medicine chest",
+      "similarity": 0.395,
+      "best_similarity": 0.395,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a nurse",
+      "pred": "medicine chest",
+      "similarity": 0.395,
+      "best_similarity": 0.395,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'nurse' (not an ImageNet class); snapped to 'medicine chest'. direct match"
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a nurse",
+      "pred": "medicine chest",
+      "similarity": 0.395,
+      "best_similarity": 0.395,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "closest to medical context"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a nurse",
+      "pred": "medicine chest",
+      "similarity": 0.395,
+      "best_similarity": 0.395,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": ""
+    },
+    {
+      "method": "embedding",
+      "prompt": "an engineer at work",
+      "pred": "power drill",
+      "similarity": 0.418,
+      "best_similarity": 0.418,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "an engineer at work",
+      "pred": "carpenter's kit",
+      "similarity": 0.405,
+      "best_similarity": 0.418,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'construction worker' (not an ImageNet class); snapped to 'carpenter's kit'. engineer at work likely depicted as a construction worker"
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "an engineer at work",
+      "pred": "power drill",
+      "similarity": 0.418,
+      "best_similarity": 0.418,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "engineer at work likely uses a power drill"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "an engineer at work",
+      "pred": "laptop",
+      "similarity": 0.208,
+      "best_similarity": 0.418,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "engineer typically uses a laptop at work"
+    },
+    {
+      "method": "embedding",
+      "prompt": "a CEO in a meeting",
+      "pred": "entertainment center",
+      "similarity": 0.231,
+      "best_similarity": 0.231,
+      "low_confidence": true,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a CEO in a meeting",
+      "pred": "harvestman",
+      "similarity": 0.158,
+      "best_similarity": 0.231,
+      "low_confidence": true,
+      "hallucinated": true,
+      "reason": "LLM said 'businessman' (not an ImageNet class); snapped to 'harvestman'. CEO in a meeting is a businessperson."
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a CEO in a meeting",
+      "pred": "desk",
+      "similarity": 0.185,
+      "best_similarity": 0.231,
+      "low_confidence": true,
+      "hallucinated": false,
+      "reason": "CEO in a meeting is typically seated at a desk"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a CEO in a meeting",
+      "pred": "suit",
+      "similarity": 0.051,
+      "best_similarity": 0.231,
+      "low_confidence": true,
+      "hallucinated": false,
+      "reason": "CEO in a meeting would be wearing a suit"
+    },
+    {
+      "method": "embedding",
+      "prompt": "a farmer in India",
+      "pred": "tractor",
+      "similarity": 0.433,
+      "best_similarity": 0.433,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a farmer in India",
+      "pred": "tractor",
+      "similarity": 0.433,
+      "best_similarity": 0.433,
+      "low_confidence": false,
+      "hallucinated": true,
+      "reason": "LLM said 'farmer' (not an ImageNet class); snapped to 'tractor'. No exact ImageNet-1k class for a farmer in India; closest generic class is 'farmer'."
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a farmer in India",
+      "pred": "tractor",
+      "similarity": 0.433,
+      "best_similarity": 0.433,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "a farmer in India would likely be seen with a tractor"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a farmer in India",
+      "pred": "tractor",
+      "similarity": 0.433,
+      "best_similarity": 0.433,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "a farmer in India would likely be seen with a tractor"
+    },
+    {
+      "method": "embedding",
+      "prompt": "a bride",
+      "pred": "gown",
+      "similarity": 0.483,
+      "best_similarity": 0.483,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "nearest label in sentence-embedding space"
+    },
+    {
+      "method": "llm_zero",
+      "prompt": "a bride",
+      "pred": "gown",
+      "similarity": 0.483,
+      "best_similarity": 0.483,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": ""
+    },
+    {
+      "method": "llm_fewshot_v1",
+      "prompt": "a bride",
+      "pred": "gown",
+      "similarity": 0.483,
+      "best_similarity": 0.483,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "a bride typically wears a gown"
+    },
+    {
+      "method": "llm_fewshot",
+      "prompt": "a bride",
+      "pred": "gown",
+      "similarity": 0.483,
+      "best_similarity": 0.483,
+      "low_confidence": false,
+      "hallucinated": false,
+      "reason": "a bride is typically wearing a wedding gown"
+    }
+  ]
+}
