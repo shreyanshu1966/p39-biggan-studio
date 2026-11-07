@@ -16,8 +16,8 @@ short_description: Free text → nearest ImageNet class → BigGAN → CLIP rank
 
 **Goal:** generate images from free text via the nearest ImageNet class.
 
-- **Live app:** _add your Hugging Face Space URL here_
-- **Demo video:** _add link_
+- **Live app:** https://p39-biggan-studio-2yj4yrxzre63hg8dhuqdkt.streamlit.app/
+- **Report:** [report/P39_Report.pdf](report/P39_Report.pdf) · **Demo video:** submitted as P39_Demo_Video.mp4 (intro: [video/brag-output/brag.mp4](video/brag-output/brag.mp4))
 
 ![lifecycle](docs/lifecycle.png)
 
